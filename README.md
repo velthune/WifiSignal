@@ -1,5 +1,7 @@
 # Wifi Signal
 
+### Overview
+
 `WifiSignal` is a simply ReactJS component that draw a nice and super minimal Wifi signal.
 
 #### Usage
@@ -30,3 +32,8 @@ Import `index.js` in your project and use it wherever:
 - **top:** top margin of wifi, if necessary to move element
 - **color:** color for filled "bars"
 
+### Future releases
+
+- [ ] provide method to animate bars in order to simulate signal searching
+- [ ] provide a better props documentation
+- [ ] let user customize other props such as no signal color
