@@ -1,4 +1,4 @@
-#Wifi Signal
+# Wifi Signal
 
 `WifiSignal` is a simply ReactJS component that draw a nice and super minimal Wifi signal.
 
@@ -7,16 +7,19 @@
 Import `index.js` in your project and use it wherever:
 
 
-    #import WifiSignal from "<path>/WifiSignal"
+    import WifiSignal from "<your_path>/WifiSignal"    
     
+    export default function MyView() {
+        return (
+            <div>
+               <WifiSignal level={2} color={"#34DC96"}/>
+            </div>
+        );
+    }
     
-	export default function WifiSignal({level, size, top, color}) {
-		return (
-			<div>
-	    		<WifiSignal level={row.value} color={"#34DC96"}/>
-	    	</div>
-    	)
-   }
+##### Render    
+    
+ <img src="wifi.png"/>
 
 #### Props
 
