@@ -14,7 +14,7 @@ Import `index.js` in your project and use it wherever:
     export default function MyView() {
         return (
             <div>
-               <WifiSignal level={2} color={"#34DC96"}/>
+               <WifiSignal level={2} colors={{signal: "#34DC96"}}/>
             </div>
         );
     }
@@ -30,10 +30,10 @@ Import `index.js` in your project and use it wherever:
 - **level:** the wifi power signal [0..4]
 - **size:** the wifi div container size
 - **top:** top margin of wifi, if necessary to move element
-- **color:** color for filled "bars"
+- **colors:** options fot set signal/no-signal "bars" colors
 
 ### Future releases
 
 - [ ] provide method to animate bars in order to simulate signal searching
-- [ ] provide a better props documentation
-- [ ] let user customize other props such as no signal color
+- [x] provide a better props documentation
+- [x] let user customize other props such as no signal color
